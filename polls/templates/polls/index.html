@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Polls</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;700&family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
     {% if latest_question_list %}
